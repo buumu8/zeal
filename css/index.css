@@ -30,7 +30,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, min-content);
   }
-  .features__content--cards__card:nth-child(2n+1) {
+  .features__content--cards__card:nth-child(2n + 1) {
     border-left: 3px solid rgb(252, 84, 26);
   }
   .pricing__content--plans {
@@ -102,7 +102,8 @@
     grid-template-rows: min-content;
     gap: 0;
   }
-  .pricing__content--plans__plan.famous-plan, .pricing__content--plans__plan.expert-plan {
+  .pricing__content--plans__plan.famous-plan,
+  .pricing__content--plans__plan.expert-plan {
     margin-left: -1px;
     z-index: 1;
   }
@@ -198,8 +199,9 @@
     grid-column: 1/5;
     grid-row: 1/-1;
   }
-  .trainer__content--card__title, .trainer__content--card__desc,
-.trainer__content--card .card-links-container {
+  .trainer__content--card__title,
+  .trainer__content--card__desc,
+  .trainer__content--card .card-links-container {
     grid-column: 5/-1;
     margin: 0;
   }
@@ -226,8 +228,8 @@
     grid-row: 1/-1;
   }
   .trainer__content--card:nth-child(3) .trainer__content--card__title,
-.trainer__content--card:nth-child(3) .trainer__content--card__desc,
-.trainer__content--card:nth-child(3) .card-links-container {
+  .trainer__content--card:nth-child(3) .trainer__content--card__desc,
+  .trainer__content--card:nth-child(3) .card-links-container {
     grid-column: 1/8;
     margin: 0;
   }
@@ -261,7 +263,7 @@
     grid-row: 1/2;
   }
   .gallery__content--img:nth-child(2) {
-    grid-column: 2/span 2;
+    grid-column: 2 / span 2;
     grid-row: 1/2;
   }
   .gallery__content--img:nth-child(3) {
@@ -291,8 +293,9 @@
   .trainer__content--card__img {
     grid-column: 1/7;
   }
-  .trainer__content--card__title, .trainer__content--card__desc,
-.trainer__content--card .card-links-container {
+  .trainer__content--card__title,
+  .trainer__content--card__desc,
+  .trainer__content--card .card-links-container {
     grid-column: 7/-1;
   }
   .trainer__content--card:nth-child(3) {
@@ -302,8 +305,8 @@
     grid-column: 5/-1;
   }
   .trainer__content--card:nth-child(3) .trainer__content--card__title,
-.trainer__content--card:nth-child(3) .trainer__content--card__desc,
-.trainer__content--card:nth-child(3) .card-links-container {
+  .trainer__content--card:nth-child(3) .trainer__content--card__desc,
+  .trainer__content--card:nth-child(3) .card-links-container {
     grid-column: 1/5;
   }
   .features__content--cards {
@@ -329,4 +332,4 @@
   .hero__content--title span:last-child {
     margin-left: 0;
   }
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */
